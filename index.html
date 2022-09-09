@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component Library-CSS Version</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ayush's Component Library</h1>
+    <p>
+      I am attending Neog.camp to create a component library which would make
+      projects look good and consistent.
+    </p>
+    <hr />
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h6>This is the samllest heading</h6>
+    <p>
+      This is normal text. This is free-flowing and wrap at the end like a
+      paragraph.
+    </p>
+    <p>This paragrapgh cantains <strong>bold</strong> text.</p>
+    <small>This is relatively smaller text.</small>
+    <hr />
+    <h2>@containers</h2>
+    <h3>Fluid container</h3>
+    <div class="fluid-container">
+      This is a container. And it will go till the end of the page.
+    </div>
+    <h3>Centered container</h3>
+    <div class="container-center">
+      This is a centered container. And it will go till specified width.
+    </div>
+    <hr />
+    <h2>@links</h2>
+    <a href="#" class="primary-link link">Primary Link</a>
+    <a href="#" class="secondary-link link">Secondary Link</a>
+    <hr />
+    <h2>@lists</h2>
+    <h3>Unordered List</h3>
+    <p>This list does not have any bullets.</p>
+    <ul class="non-bullet">
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <li>Item4</li>
+      <li>Item5</li>
+    </ul>
+    <h3>Unordered In-line List</h3>
+    <ul class="non-bullet">
+      <li class="inline-list">Inline item-1</li>
+      <li class="inline-list">Inline item-2</li>
+      <li class="inline-list">Inline item-3</li>
+    </ul>
+    <h3>Reverse-order list</h3>
+    <ol reversed>
+      <li>Candies</li>
+      <li>Egg</li>
+      <li>bread</li>
+    </ol>
+    <hr />
+    <h2>@nav</h2>
+    <nav class="navigation">
+      <div class="nav-brand">Im brand</div>
+      <ul class="unordered nav-pills">
+        <li class="inline-list link">
+          <a href="#" class="link-active">Home</a>
+        </li>
+        <li class="inline-list link">
+          <a href="#">Projects</a>
+        </li>
+        <li class="inline-list link">
+          <a href="#">Blogs</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <h2>@header</h2>
+    <header class="hero">
+      <h3>Local image (Stored on local machine)</h3>
+      <img src="images/hero-img.svg" alt="hero-image" class="hero-image" />
+      <h3>Public Image (Hosted online)</h3>
+      <img
+        src="https://unblast.com/wp-content/uploads/2020/03/App-Development-Illustration-1-1600x1200.jpg"
+        alt="hero-image"
+        class="hero-image"
+      />
+      <h1 class="hero-heading">
+        <span class="hero-inverted">Ayush Raj</span> the web developer
+      </h1>
+    </header>
+    <hr />
+    <h2>@section</h2>
+    <section class="section">
+      <div class="container container-center">
+        <h1>White Section</h1>
+        <p>I noticed that some important information was missing. I figured that instead of reporting the issue and waiting for someone to correct it, I could try to update the article myself. It turned out to be very satisfying, especially since MDN is viewed daily by tens of thousands of developers who now can be informed because of me.</p>
+      </div>
+    </section>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Grey Section</h1>
+        <p>I noticed that some important information was missing. I figured that instead of reporting the issue and waiting for someone to correct it, I could try to update the article myself. It turned out to be very satisfying, especially since MDN is viewed daily by tens of thousands of developers who now can be informed because of me.</p>
+      </div>
+    </section>
+    <hr />
+    <h2>@footer</h2>
+    <footer class="footer container">
+        <div class="footer-header">
+            Some text inside footer.
+        </div>
+      <ul class="social-links">
+        <li class="inline-list"> <a href="#" class="link">Social one</a> </li>
+        <li class="inline-list"> <a href="#" class="link">Social two</a> </li>
+        <li class="inline-list"> <a href="#" class="link">Social three</a> </li>
+      </ul>
+    </footer>
+  </body>
+  <!-- #FFAC63 -->
+</html>
